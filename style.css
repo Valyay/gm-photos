@@ -162,6 +162,12 @@ color: #FFFFFF;
     top: 755px;
 }
 .loader-img{
+    display: flex;
+    
+    height: 2px;
+    width: 278px;
+}
+.loader-img-style{
     height: 2px;
     width: 139px;
 }
@@ -246,8 +252,6 @@ height: 958px;
 }
 .videos-sign{
     /* — Видео с фотосессий */
-
-
 position: absolute;
 width: 333px;
 height: 20px;
@@ -646,4 +650,128 @@ color: #222222;
     height: 50px;
     left: 125px;
     top: 5792px;
+}
+
+footer{
+    margin-top: 108.23px;
+    width: 1360px;
+    height: 219.77px;
+    background: #494949;
+}
+
+.company{
+    position: absolute;
+width: 112px;
+height: 28px;
+left: 126px;
+top: 6008px;
+
+/* Title */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+/* or 145% */
+
+
+color: #FFFFFF;
+}
+
+.footer-menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+margin-left: 313px;
+margin-top: 63.64px;
+height: 26.13px;
+width: 284px;
+}
+
+.footer-menu-el{
+    /* Paragraph */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+footer form{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+width: 312px;
+height: 37px;
+left: 923px;
+top: 6004px;
+}
+
+.footer-input{
+width: 170px;
+}
+
+.footer-button{
+    height: 37px;
+    width: 127px;
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+text-align: center;
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* White */
+
+
+color: #FFFFFF;
+border: 1px solid #000000;
+background: #000000;
+}
+
+.submenu{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top:1px solid #FFFFFF;
+    opacity: 0.8;
+    top: 6079px;
+    left: 125px;
+    width: 1108px;
+    height: 57px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 114px;
+    height: 21.98px;
+    opacity: 0.4;
+}
+.social-twitter{
+    width: 16px;
+    height: 14px;
+}
+.social-instagram{
+    width: 14px;
+    height: 14px;
+}
+.social-google{
+    width: 14px;
+    height: 14px;
+}
+.social-facebook{
+    width: 8px;
+    height: 15px;
 }
