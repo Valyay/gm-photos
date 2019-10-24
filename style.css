@@ -2,6 +2,10 @@ body{
     width: 1360px;
 background-color: #F4F4F4;
 }
+.first_screen{
+    width: 1360px;
+height: 982px;
+}
 .header{
     height: 142px;
 }
@@ -171,4 +175,65 @@ line-height: 28px;
 
 
 color: #222222;
+}
+.about{
+margin-top: 137px;
+margin-left: 126px;
+width: 1109px;
+height: 564px;
+border: 1px solid black;
+}
+.about-placeholder{
+width: 475px;
+height: 564px;
+left: 126px;
+top: 1119px;
+}
+.about-title{
+/* Я лишь хочу захватить секундную часть реальности */
+
+
+position: absolute;
+width: 540px;
+height: 97px;
+left: 695px;
+top: 1156px;
+
+/* Big Title */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: -1px;
+
+/* Black */
+
+color: #222222;
+}
+.about-description{
+
+position: absolute;
+width: 444.82px;
+height: 81px;
+left: 695px;
+top: 1283px;
+
+/* Paragrapgh */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+/* Black */
+
+color: #222222;
+opacity: 0.7;
 }
