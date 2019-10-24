@@ -345,6 +345,8 @@ top: 2733px;
 }
 .how_it_works{
     margin-top: 181px;
+    width: 1235px;
+    height: 552px;
 }
 .how_is_works-img-1{
     position: absolute;
@@ -549,4 +551,99 @@ letter-spacing: 4px;
 text-transform: uppercase;
 background: #000000;
 color: #FFFFFF;
+}
+
+.comments{
+    margin-top: 256px;
+    margin-left: 125px;
+    width: 1110px;
+    height: 620px;
+}
+
+.comments-sign{
+    position: absolute;
+width: 190px;
+height: 20px;
+left: 125px;
+top: 5222px;
+
+/* Label */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* Black */
+
+color: #222222;
+opacity: 0.7;
+}
+
+.comments-img{
+    position: absolute;
+width: 445px;
+height: 620px;
+left: 790px;
+top: 5222px;
+}
+
+.comments-description{
+position: absolute;
+width: 540px;
+height: 269px;
+left: 125px;
+top: 5315px;
+
+/* Big Title */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: -1px;
+
+/* Black */
+
+color: #222222;
+}
+
+.comments-author{
+position: absolute;
+width: 540px;
+height: 32px;
+left: 125px;
+top: 5672px;
+
+/* Title */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+
+/* Black */
+
+color: #222222;
+}
+
+.comments-navigation{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+    height: 50px;
+    left: 125px;
+    top: 5792px;
 }
