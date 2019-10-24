@@ -1,3 +1,4 @@
+
 body{
     width: 1360px;
 background-color: #F4F4F4;
@@ -181,7 +182,7 @@ margin-top: 137px;
 margin-left: 126px;
 width: 1109px;
 height: 564px;
-border: 1px solid black;
+
 }
 .about-placeholder{
 width: 475px;
@@ -236,4 +237,109 @@ line-height: 28px;
 
 color: #222222;
 opacity: 0.7;
+}
+.videos{
+margin-top: 142px;
+margin-left: 125px;
+width: 1680px;
+height: 958px;
+}
+.videos-sign{
+    /* — Видео с фотосессий */
+
+
+position: absolute;
+width: 333px;
+height: 20px;
+left: 126px;
+top: 1825px;
+
+/* Label */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* Black */
+
+color: #222222;
+opacity: 0.7;
+}
+.videos-title{
+    /* Я люблю людей, которых фотографирую. Я имею в виду, что они мои друзья, через свои фотографии я живу с ними */
+
+position: absolute;
+width: 539px;
+height: 199px;
+left: 126px;
+top: 1885px;
+
+/* Big Title */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+/* or 125% */
+
+letter-spacing: -1px;
+
+/* Black */
+
+color: #222222;
+}
+.videos-img-1{
+    position: absolute;
+    width: 825px;
+    height: 500px;
+    left: 125px;
+    top: 2183px;
+}
+
+.videos-img-2{
+    position: absolute;
+    width: 380px;
+    height: 500px;
+    left: 980px;
+    top: 2183px;
+
+    opacity: 0.3;
+}
+.videos-rectangle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 505px;
+    top: 2400px;
+    width: 65px;
+    height: 65px;
+    
+    /* White */
+
+background: #FFFFFF;
+}
+.navigation{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+width: 125px;
+height: 50px;
+left: 125px;
+top: 2733px;
+}
+.navigation-mask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: #C4C4C4;
 }
