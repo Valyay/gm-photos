@@ -412,3 +412,141 @@ line-height: 28px;
 color: #222222;
 opacity: 0.7;
 }
+
+.portfolio{
+    margin-top:202px;
+    width: 1120px;
+    height: 1248px;
+}
+
+.portfolio-sign{ 
+position: absolute;
+width: 160px;
+height: 20px;
+left: 126px;
+top: 3718px;
+
+/* Label */
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* Black */
+
+color: #222222;
+opacity: 0.7;
+}
+
+.switcher{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+width: 837px;
+height: 19px;
+left: 408px;
+top: 3796px;
+}
+
+.switcher-1{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+color: #B5B5B5;
+}
+
+.switcher-active{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+/* Black */
+
+color: #222222;
+}
+.portfolio-img-1{
+    position: absolute;
+width: 350px;
+height: 450px;
+left: 125px;
+top: 3934px;
+}
+
+.portfolio-img-2{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 505px;
+    top: 3934px;
+}
+
+.portfolio-img-3{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 885px;
+    top: 3934px;
+}
+
+.portfolio-img-4{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 125px;
+    top: 4414px;
+}
+
+.portfolio-img-5{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 505px;
+    top: 4414px;
+}
+
+.portfolio-img-6{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 885px;
+    top: 4414px;
+}
+.portfolio-button{
+    position: absolute;
+width: 338px;
+height: 50px;
+left: 897px;
+top: 4916px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+text-align: center;
+letter-spacing: 4px;
+text-transform: uppercase;
+background: #000000;
+color: #FFFFFF;
+}
